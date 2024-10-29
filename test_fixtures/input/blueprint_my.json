@@ -1,0 +1,142 @@
+{
+  "id": "5681b99e-94b8-4821-9f58-89041e69a06c",
+  "data": {
+    "grid": "standard",
+    "name": "Betajob web-site",
+    "text": [],
+    "edges": [
+      {
+        "id": "54903008-02a4-4df7-94b5-79d65883fa30-9d132232-4d19-47f2-9ab8-4d0c07889364",
+        "to": "9d132232-4d19-47f2-9ab8-4d0c07889364",
+        "from": "54903008-02a4-4df7-94b5-79d65883fa30",
+        "type": "autoedge",
+        "color": "#000000",
+        "width": 2,
+        "dashed": false,
+        "endCap": "arrow"
+      }
+    ],
+    "icons": [],
+    "nodes": [
+      {
+        "id": "ff51058d-b77d-4880-b995-d4505d9e0f0e",
+        "type": "ec2",
+        "color": "#ececed",
+        "mapPos": [
+          4,
+          7.5
+        ],
+        "region": "eu-west-1",
+        "platform": "linux",
+        "transparent": false,
+        "instanceSize": "small",
+        "instanceType": "t2"
+      },
+      {
+        "id": "07748725-280e-4ad1-a837-e6d150cd7ebb",
+        "type": "ec2",
+        "color": "#ececed",
+        "mapPos": [
+          8.18,
+          7.5
+        ],
+        "region": "eu-west-1",
+        "platform": "linux",
+        "transparent": false,
+        "instanceSize": "small",
+        "instanceType": "t2"
+      },
+      {
+        "id": "54903008-02a4-4df7-94b5-79d65883fa30",
+        "lcu": 1,
+        "type": "elb",
+        "dataGb": 10,
+        "mapPos": [
+          6.25,
+          12.25
+        ],
+        "region": "eu-west-1",
+        "elbType": "classic"
+      }
+    ],
+    "groups": [
+      {
+        "id": "9d132232-4d19-47f2-9ab8-4d0c07889364",
+        "type": "asg",
+        "nodes": [
+          "ff51058d-b77d-4880-b995-d4505d9e0f0e",
+          "07748725-280e-4ad1-a837-e6d150cd7ebb"
+        ],
+        "layout": "even",
+        "mapPos": [
+          4,
+          7.5
+        ],
+        "region": "eu-west-1",
+        "mapSize": [
+          5.180000000000001,
+          1
+        ]
+      },
+      {
+        "id": "33811b5b-6e3b-4078-9067-9c20575a4d6c",
+        "name": "my-sg",
+        "type": "sg",
+        "color": "#3F51B5",
+        "nodes": [
+          "9d132232-4d19-47f2-9ab8-4d0c07889364",
+          "07748725-280e-4ad1-a837-e6d150cd7ebb",
+          "07748725-280e-4ad1-a837-e6d150cd7ebb",
+          "ff51058d-b77d-4880-b995-d4505d9e0f0e"
+        ],
+        "region": "eu-west-1",
+        "padding": 1.5,
+        "inboundRules": [],
+        "outboundRules": []
+      },
+      {
+        "id": "ca9714ff-3dc2-494c-9abf-cc5da5e0a6a8",
+        "name": "elb-sg",
+        "type": "sg",
+        "color": "#3F51B5",
+        "nodes": [
+          "54903008-02a4-4df7-94b5-79d65883fa30"
+        ],
+        "region": "eu-west-1",
+        "padding": 1.5,
+        "inboundRules": [],
+        "outboundRules": []
+      },
+      {
+        "id": "50d5ccda-15d6-46e6-810f-dafc19e289f7",
+        "name": "my-vpc",
+        "type": "vpc",
+        "color": "#00BCD4",
+        "nodes": [
+          "07748725-280e-4ad1-a837-e6d150cd7ebb",
+          "33811b5b-6e3b-4078-9067-9c20575a4d6c",
+          "9d132232-4d19-47f2-9ab8-4d0c07889364",
+          "ff51058d-b77d-4880-b995-d4505d9e0f0e",
+          "54903008-02a4-4df7-94b5-79d65883fa30",
+          "ca9714ff-3dc2-494c-9abf-cc5da5e0a6a8"
+        ],
+        "region": "eu-west-1",
+        "padding": 1.5,
+        "peeringConnections": []
+      }
+    ],
+    "images": [],
+    "linkKey": "xurEYfeVyaecPNO4Nr0W0g",
+    "version": 1,
+    "surfaces": [],
+    "shareDocs": false,
+    "connectors": [],
+    "disabledLayers": []
+  },
+  "readAccess": null,
+  "writeAccess": null,
+  "createdAt": "2018-11-17T17:09:06.380Z",
+  "updatedAt": "2018-11-17T20:25:57.282Z",
+  "CreatorId": "e188a76e-d460-43b2-b57f-a3ed871ffaa0",
+  "LastUserId": "e188a76e-d460-43b2-b57f-a3ed871ffaa0"
+}

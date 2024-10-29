@@ -1,0 +1,6 @@
+{
+  "body": "",
+  "queryStringParameters": {
+    "localfile": "test_fixtures/input/blueprint_cloudfront_lambda_apigw.json"
+  }
+}

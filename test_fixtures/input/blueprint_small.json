@@ -1,0 +1,482 @@
+{
+  "id": "b2eda0eb-21b2-45d8-93d5-c0b4906eb69e",
+  "data": {
+    "grid": "infinite",
+    "name": "test-small",
+    "text": [
+      {
+        "id": "6c2e4c17-42b0-4f0a-9f93-9bc5dcd6c4ad",
+        "text": "SQS-number1",
+        "type": "isotext",
+        "color": "#4286c5",
+        "mapPos": {
+          "relTo": "6f6bbbea-4ec0-40dc-ad2e-c81b4a56a42e",
+          "offset": [
+            0.3500000000000001,
+            1.3900000000000006
+          ]
+        },
+        "outline": true,
+        "standing": false,
+        "textSize": 25,
+        "direction": "down",
+        "isometric": true
+      },
+      {
+        "id": "d6325c13-9822-43b7-8a0f-bed52a217b67",
+        "text": "RDS-cluster",
+        "type": "isotext",
+        "color": "#4286c5",
+        "mapPos": {
+          "relTo": "29e8479c-67e7-4286-a060-d46529413fce",
+          "offset": [
+            0.125,
+            1
+          ]
+        },
+        "outline": true,
+        "standing": false,
+        "textSize": 25,
+        "direction": "down",
+        "isometric": true
+      },
+      {
+        "id": "319db0da-7337-4b01-a213-46bdaf84ff60",
+        "text": "Assets",
+        "type": "isotext",
+        "color": "#4286c5",
+        "mapPos": {
+          "relTo": "f034bcfb-6a1b-4925-9b64-5c76c90f2c17",
+          "offset": [
+            0.245,
+            0.6999999999999993
+          ]
+        },
+        "outline": true,
+        "standing": false,
+        "textSize": 25,
+        "direction": "down",
+        "isometric": true
+      },
+      {
+        "id": "4b302c11-e0a6-4079-973d-4f436b56d4f5",
+        "text": "CloudFront",
+        "type": "isotext",
+        "color": "#4286c5",
+        "mapPos": {
+          "relTo": "fbfca042-a593-49ca-90db-a3a035c140f1",
+          "offset": [
+            -0.7549999999999999,
+            0.8299999999999983
+          ]
+        },
+        "outline": true,
+        "standing": false,
+        "textSize": 25,
+        "direction": "down",
+        "isometric": true
+      },
+      {
+        "id": "7db3f5f0-6601-4dcc-8140-982cf74d7b19",
+        "text": "User",
+        "type": "isotext",
+        "color": "#4286c5",
+        "mapPos": {
+          "relTo": "d8100514-1122-458c-94f6-718ebcec16af",
+          "offset": [
+            -0.015000000000000013,
+            0.629999999999999
+          ]
+        },
+        "outline": true,
+        "standing": false,
+        "textSize": 25,
+        "direction": "down",
+        "isometric": true
+      },
+      {
+        "id": "e9f6e53e-03af-4362-aa39-5b9cc09684b4",
+        "text": "My-table",
+        "type": "isotext",
+        "color": "#4286c5",
+        "mapPos": {
+          "relTo": "d0814941-436f-49e0-81f2-8f682550ec2c",
+          "offset": [
+            -0.5,
+            1
+          ]
+        },
+        "outline": true,
+        "standing": false,
+        "textSize": 25,
+        "direction": "down",
+        "isometric": true
+      },
+      {
+        "id": "7b3c6e0f-1f84-454e-8869-2c47d7a8da96",
+        "text": "Public ELB",
+        "type": "isotext",
+        "color": "#4286c5",
+        "mapPos": {
+          "relTo": "e3ed6863-4d78-4e0b-8a5f-1f485fda98d1",
+          "offset": [
+            0.125,
+            1
+          ]
+        },
+        "outline": true,
+        "standing": false,
+        "textSize": 25,
+        "direction": "down",
+        "isometric": true
+      },
+      {
+        "id": "4529d7b3-121e-49d9-a3f8-c32c3bebd3ce",
+        "text": "Web autoscaling group",
+        "type": "isotext",
+        "color": "#4286c5",
+        "mapPos": {
+          "relTo": "e37ba346-a434-4383-99ab-501b61f908c8",
+          "offset": [
+            0.43500000000000005,
+            1.1400000000000006
+          ]
+        },
+        "outline": true,
+        "standing": false,
+        "textSize": 25,
+        "direction": "down",
+        "isometric": true
+      }
+    ],
+    "edges": [
+      {
+        "to": "3c7ab31f-4fc7-47fd-b226-87d5e5f7a2b5",
+        "from": "e3ed6863-4d78-4e0b-8a5f-1f485fda98d1",
+        "type": "edge",
+        "color": {
+          "2d": "#000000",
+          "isometric": "#000000"
+        },
+        "width": 2,
+        "dashed": false,
+        "endCap": "arrow"
+      },
+      {
+        "to": "fbfca042-a593-49ca-90db-a3a035c140f1",
+        "from": "d8100514-1122-458c-94f6-718ebcec16af",
+        "type": "edge",
+        "color": {
+          "2d": "#000000",
+          "isometric": "#000000"
+        },
+        "width": 2,
+        "dashed": false,
+        "endCap": "arrow"
+      },
+      {
+        "to": "f034bcfb-6a1b-4925-9b64-5c76c90f2c17",
+        "from": "fbfca042-a593-49ca-90db-a3a035c140f1",
+        "type": "edge",
+        "color": {
+          "2d": "#000000",
+          "isometric": "#000000"
+        },
+        "width": 2,
+        "dashed": false,
+        "endCap": "arrow"
+      },
+      {
+        "to": "e3ed6863-4d78-4e0b-8a5f-1f485fda98d1",
+        "from": "fbfca042-a593-49ca-90db-a3a035c140f1",
+        "type": "edge",
+        "color": {
+          "2d": "#000000",
+          "isometric": "#000000"
+        },
+        "width": 2,
+        "dashed": false,
+        "endCap": "arrow"
+      }
+    ],
+    "icons": [],
+    "nodes": [
+      {
+        "id": "3c7ab31f-4fc7-47fd-b226-87d5e5f7a2b5",
+        "type": "ec2",
+        "color": {
+          "2d": "#d86613",
+          "isometric": "#ececed"
+        },
+        "mapPos": [
+          2.19,
+          9.75
+        ],
+        "region": "eu-west-1",
+        "platform": "linux",
+        "accentColor": {
+          "2d": "#d86613",
+          "isometric": "#4286c5"
+        },
+        "transparent": false,
+        "instanceSize": "micro",
+        "instanceType": "t3",
+        "billingOptions": {
+          "type": "ri",
+          "utilization": 1,
+          "offeringClass": "standard",
+          "purchaseOption": "No Upfront",
+          "leaseContractLength": 12
+        }
+      },
+      {
+        "id": "29e8479c-67e7-4286-a060-d46529413fce",
+        "role": "primary",
+        "type": "rds",
+        "color": {
+          "2d": "#3b48cc",
+          "isometric": "#ececed"
+        },
+        "engine": "aurora-postgresql",
+        "mapPos": [
+          9,
+          9.75
+        ],
+        "region": "eu-west-1",
+        "multiAZ": false,
+        "accentColor": {
+          "2d": "#ffffff",
+          "isometric": "#4286c5"
+        },
+        "instanceSize": "medium",
+        "instanceType": "t3",
+        "maximumCapacityUnit": 2,
+        "minimumCapacityUnit": 2
+      },
+      {
+        "id": "6f6bbbea-4ec0-40dc-ad2e-c81b4a56a42e",
+        "type": "sqs",
+        "color": {
+          "2d": "#cc2264",
+          "isometric": "#ececed"
+        },
+        "mapPos": [
+          8,
+          15.25
+        ],
+        "region": "eu-west-1",
+        "requests": 1,
+        "direction": "down",
+        "queueType": "standard",
+        "accentColor": {
+          "2d": "#ffffff",
+          "isometric": "#f4b934"
+        }
+      },
+      {
+        "id": "e3ed6863-4d78-4e0b-8a5f-1f485fda98d1",
+        "lcu": 1,
+        "type": "elb",
+        "color": {
+          "2d": "#693cc5",
+          "isometric": "#ececed"
+        },
+        "dataGb": 10,
+        "mapPos": [
+          2.25,
+          15.75
+        ],
+        "region": "eu-west-1",
+        "elbType": "classic",
+        "accentColor": {
+          "2d": "#ffffff",
+          "isometric": "#4286c5"
+        }
+      },
+      {
+        "id": "d0814941-436f-49e0-81f2-8f682550ec2c",
+        "type": "dynamodb",
+        "color": {
+          "2d": "#3b48cc",
+          "isometric": "#ececed"
+        },
+        "mapPos": [
+          11.25,
+          16.75
+        ],
+        "region": "eu-west-1",
+        "datasetGb": 10,
+        "readUnits": 51,
+        "writeUnits": 5,
+        "accentColor": {
+          "2d": "#ffffff",
+          "isometric": "#4286c5"
+        },
+        "capacityMode": "on-demand",
+        "readConsistency": "strong"
+      },
+      {
+        "id": "f034bcfb-6a1b-4925-9b64-5c76c90f2c17",
+        "type": "s3",
+        "color": {
+          "2d": "#3f8624",
+          "isometric": "#4286c5"
+        },
+        "dataGb": 10,
+        "mapPos": [
+          8,
+          19.25
+        ],
+        "region": "eu-west-1",
+        "volumeType": "Standard",
+        "accentColor": {
+          "2d": "#ffffff",
+          "isometric": "#4286c5"
+        },
+        "getAndOtherRequests": 0,
+        "putCopyPostRequests": 0,
+        "lifecycleTransitions": 0
+      },
+      {
+        "id": "fbfca042-a593-49ca-90db-a3a035c140f1",
+        "type": "cloudfront",
+        "color": {
+          "2d": "#693cc5",
+          "isometric": "#ececed"
+        },
+        "mapPos": [
+          2.25,
+          21.5
+        ],
+        "accentColor": {
+          "2d": "#ffffff",
+          "isometric": "#4286c5"
+        }
+      },
+      {
+        "id": "d8100514-1122-458c-94f6-718ebcec16af",
+        "type": "user",
+        "color": {
+          "2d": "#232f3e",
+          "isometric": "#000000"
+        },
+        "mapPos": [
+          2.25,
+          25
+        ],
+        "direction": "down"
+      }
+    ],
+    "groups": [
+      {
+        "id": "e37ba346-a434-4383-99ab-501b61f908c8",
+        "type": "asg",
+        "color": {
+          "2d": "#f5b720",
+          "isometric": "#f5b720"
+        },
+        "nodes": [
+          "3c7ab31f-4fc7-47fd-b226-87d5e5f7a2b5"
+        ],
+        "layout": "even",
+        "mapPos": [
+          0.75,
+          9.75
+        ],
+        "region": "eu-west-1",
+        "mapSize": [
+          3.88,
+          1
+        ]
+      },
+      {
+        "id": "a26a39ac-bfa9-4ba1-9d2b-f748bb0a7e11",
+        "name": "sgtest",
+        "type": "sg",
+        "color": {
+          "2d": "#3f51b5",
+          "isometric": "#3f51b5"
+        },
+        "nodes": [
+          "e37ba346-a434-4383-99ab-501b61f908c8",
+          "3c7ab31f-4fc7-47fd-b226-87d5e5f7a2b5"
+        ],
+        "shape": "dynamic",
+        "region": "eu-west-1",
+        "padding": 1.5,
+        "inboundRules": [],
+        "outboundRules": []
+      },
+      {
+        "id": "0358dcc4-fa4a-4ea5-b00d-b67748e99c27",
+        "name": "sgelb",
+        "type": "sg",
+        "color": {
+          "2d": "#3f51b5",
+          "isometric": "#3f51b5"
+        },
+        "nodes": [
+          "e3ed6863-4d78-4e0b-8a5f-1f485fda98d1"
+        ],
+        "shape": "dynamic",
+        "region": "eu-west-1",
+        "padding": 1.5,
+        "inboundRules": [],
+        "outboundRules": []
+      },
+      {
+        "id": "8bb8ba7e-fb88-4137-b614-ad1adef32101",
+        "name": "sgrds",
+        "type": "sg",
+        "color": {
+          "2d": "#9c27b0",
+          "isometric": "#9c27b0"
+        },
+        "nodes": [
+          "29e8479c-67e7-4286-a060-d46529413fce"
+        ],
+        "shape": "dynamic",
+        "region": "eu-west-1",
+        "padding": 1.5,
+        "inboundRules": [],
+        "outboundRules": []
+      },
+      {
+        "id": "b6b59004-dc97-4fd6-8d8c-424b54c3174b",
+        "name": "vpc-test",
+        "type": "vpc",
+        "color": {
+          "2d": "#673ab7",
+          "isometric": "#673ab7"
+        },
+        "nodes": [
+          "e37ba346-a434-4383-99ab-501b61f908c8",
+          "3c7ab31f-4fc7-47fd-b226-87d5e5f7a2b5",
+          "a26a39ac-bfa9-4ba1-9d2b-f748bb0a7e11",
+          "e3ed6863-4d78-4e0b-8a5f-1f485fda98d1",
+          "0358dcc4-fa4a-4ea5-b00d-b67748e99c27",
+          "29e8479c-67e7-4286-a060-d46529413fce",
+          "8bb8ba7e-fb88-4137-b614-ad1adef32101"
+        ],
+        "shape": "dynamic",
+        "region": "eu-west-1",
+        "padding": 1.5,
+        "peeringConnections": []
+      }
+    ],
+    "images": [],
+    "linkKey": "XlAaasYL4pOa5f-Wzkt5CQ",
+    "version": 1,
+    "surfaces": [],
+    "shareDocs": false,
+    "connectors": [],
+    "projection": "isometric",
+    "disabledLayers": []
+  },
+  "readAccess": null,
+  "writeAccess": null,
+  "createdAt": "2020-01-29T19:26:41.856Z",
+  "updatedAt": "2020-03-22T15:15:19.712Z",
+  "CreatorId": "354474ae-8248-45a8-a1ef-34de7c2a4d47",
+  "LastUserId": "354474ae-8248-45a8-a1ef-34de7c2a4d47"
+}
